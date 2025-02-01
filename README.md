@@ -16,7 +16,7 @@
 
 This project analyzes IPL player and match data using PySpark for efficient data processing and manipulation. The dataset includes comprehensive details about players, matches, and their performance metrics. The project demonstrates data enrichment, dynamic column creation, and exploratory insights based on key player attributes like age, batting/bowling style, and career duration.
 
-Features
+##Features
 Dynamic Calculations:
 
 Added player age at the time of the match (age_as_on_match).
@@ -24,7 +24,7 @@ Calculated years since debut (years_since_debut).
 Veteran Status Classification:
 
 Categorized players as "Veteran" or "Non-Veteran" based on their age.
-Enriched Dataset:
+##Enriched Dataset:
 
 Integrated player, match, and team information.
 Highlighted key attributes like batting/bowling skills, captain/keeper roles, and team performance.
@@ -44,16 +44,13 @@ Highlights
 Enriches raw IPL datasets with meaningful insights and categorizations.
 Demonstrates real-world use cases for PySpark in sports analytics.
 Provides an intuitive understanding of player attributes and their evolution over time.
-How to Use
-Clone the repository:
+##How to Use
+*Clone the repository*:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/ipl-player-match-analysis.git  
-Install the required dependencies (PySpark).
+git clone https://github.com/MadhuriP2954/Big-Data-Analysis.git    
+*Install the required dependencies (PySpark).*
 
-Run the scripts to analyze the data and generate insights.
+*Run the scripts to analyze the data and generate insights.*
 
 Future Enhancements
 Integrate visualization tools for better data representation.
